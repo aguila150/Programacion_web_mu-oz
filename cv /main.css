@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Estilos de la sección de audio */
+.seccion-audio {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #444;
+  margin-bottom: -20px;
+}
+
+.control-musica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-musica p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+#btnReproducir {
+  background: #333;
+  color: #eee;
+  border: 1px solid #555;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#btnReproducir:hover {
+  background: #555;
+  color: #fff;
+}
+
+/* Tus estilos originales */
+.seccion-sobre-mi h2,                                           
+.seccion-proyectos h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;                                                                                                                                                                                              
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;                                                                                                                                                                                              
+}                                                               
+
+.seccion-sobre-mi p {
+  line-height: 1.6;
+}                                                                                                                                                                                                                   
+ 
+.contenedor-proyectos {                                                                                                                                                                                             
+  display: flex;                                                
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tarjeta {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;                                                                                                                                                                                                    
+  border: 1px solid #ddd;
+  border-radius: 8px;                                                                                                                                                                                               
+}                                                               
+
+.tarjeta h3 {
+  font-size: 1.1rem;
+  font-weight: bold;                                                                                                                                                                                                
+  margin-bottom: 8px;
+}                                                                                                                                                                                                                   
+                                                                
+a {
+  text-decoration: none;
+}
