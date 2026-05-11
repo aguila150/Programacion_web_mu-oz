@@ -1,0 +1,33 @@
+.logoimg {
+  width: 250px;
+}
+body {
+  background-color: rgb(139, 35, 35);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+form {
+  background-color: white; /* Para que resalte sobre el fondo */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+}
