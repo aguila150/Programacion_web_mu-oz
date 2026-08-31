@@ -63,6 +63,7 @@ function App() {
           contenido="La VRAM es la memoria dedicada de una tarjeta gráfica. Se utiliza para almacenar texturas, modelos, buffers y otros datos que la GPU necesita durante los juegos y aplicaciones gráficas."
         />
       </div>
+
       <div>
         <Buscador />
       </div>
