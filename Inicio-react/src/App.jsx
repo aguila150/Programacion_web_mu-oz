@@ -8,7 +8,6 @@ import TarjetaPelicula from "./components/TarjetaPelicula";
 import Contador from "./components/Contador";
 import Acordeon from "./components/Toggle";
 import Buscador from "./components/Buscador";
-//import Integrador from "./components/Integrador";
 import ListaCompras from "./components/Integrador";
 
 const peliculas = [
