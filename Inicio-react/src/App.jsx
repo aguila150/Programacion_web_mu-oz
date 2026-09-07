@@ -10,6 +10,7 @@ import Acordeon from "./components/Toggle";
 import Buscador from "./components/Buscador";
 import ListaCompras from "./components/Integrador";
 
+
 const peliculas = [
   { id: 1, titulo: "Interstellar", año: 2014, vista: false },
   { id: 2, titulo: "The Dark Knight", año: 2008, vista: true },
